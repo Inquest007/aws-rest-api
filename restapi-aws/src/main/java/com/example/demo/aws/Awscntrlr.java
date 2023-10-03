@@ -12,7 +12,9 @@ public class Awscntrlr {
 	
 	@GetMapping
 	public String hello() {
-		return "Hello Welcome!!";
+		return "Hello Welcome Sanju!!";
 	}
+
+	
 
 }
