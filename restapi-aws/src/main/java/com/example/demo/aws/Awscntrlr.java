@@ -10,7 +10,7 @@ public class Awscntrlr {
 	public String awsFirst(){
 		return "Welcome to AWS!!"; }
 	
-	@GetMapping
+	@GetMapping("/")
 	public String hello() {
 		return "Hello Welcome Sanju!!";
 	}
